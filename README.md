@@ -83,4 +83,10 @@ Meal_planner_project_flask/
     ├── 📄 view_meal.html
     └── 📄 meal_plan.html
 
-    
+    ## 🌐 Live Demo
+
+🚀 **Try the application online:**
+
+👉 [Meal Management & Nutrition Tracker](https://nandita2205.pythonanywhere.com/register)
+
+
