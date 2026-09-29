@@ -76,6 +76,7 @@ Track important nutritional information for every meal:
 
 ## 📁 Project Structure
 
+```
 Meal_planner_project_flask/
 │
 ├── app.py
@@ -90,11 +91,13 @@ Meal_planner_project_flask/
 │   └── meal_plan.html
 │
 └── testing/
+    ├── README.md
     ├── test_cases.md
     └── bug_report.md
 ```
 
 ---
+
 ## 🧪 Testing
 
 Manual functional testing was performed on the live application.
@@ -102,7 +105,7 @@ Manual functional testing was performed on the live application.
 - 📋 Test cases: [testing/test_cases.md](testing/test_cases.md)
 - 🐞 Bug reports: [testing/bug_report.md](testing/bug_report.md)
   
---------
+---
 
 ## ⚙️ Setup & Installation
 
