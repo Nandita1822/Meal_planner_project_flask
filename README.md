@@ -91,6 +91,14 @@ Meal_planner_project_flask/
 ```
 
 ---
+## 🧪 Testing
+
+Manual functional testing was performed on the live application.
+
+- 📋 Test cases: [testing/test_cases.md](testing/test_cases.md)
+- 🐞 Bug reports: [testing/bug_report.md](testing/bug_report.md)
+  
+--------
 
 ## ⚙️ Setup & Installation
 
