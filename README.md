@@ -76,18 +76,22 @@ Track important nutritional information for every meal:
 
 ## 📁 Project Structure
 
-```
 Meal_planner_project_flask/
 │
 ├── app.py
 ├── requirements.txt
+├── README.md
 │
-└── templates/
-    ├── index.html
-    ├── add_meal.html
-    ├── edit_meal.html
-    ├── view_meal.html
-    └── meal_plan.html
+├── templates/
+│   ├── index.html
+│   ├── add_meal.html
+│   ├── edit_meal.html
+│   ├── view_meal.html
+│   └── meal_plan.html
+│
+└── testing/
+    ├── test_cases.md
+    └── bug_report.md
 ```
 
 ---
