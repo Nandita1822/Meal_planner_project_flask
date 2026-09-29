@@ -1,16 +1,6 @@
-# Meal Tracker - Health Nutrition & Planner App
+# 🍽️ Meal Tracker - Health Nutrition & Planner App
 
-A simple yet expandable web application to help users manage meals, calculate nutrition, and plan healthy eating habits. Built using Flask and currently stores data in a CSV file (`meals.csv`) for ease of access and portability.
----
-
-## 🚀 Features
-
-✅ Add, view, edit, and delete meal entries  
-✅ Store meal data in a CSV file (`meals.csv`)  
-✅ Filter meals by category or search by name  
-✅ Calculate total calories, protein, carbs, and fat for selected meals  
-✅ Responsive and intuitive UI using HTML/CSS + Jinja templating  
-✅ Flash alerts for instant feedback (e.g., missing fields, successful updates)  
+A simple yet expandable web application to help users manage meals, calculate nutrition, and plan healthy eating habits. Built using **Flask** and **MySQL**.
 
 ---
 
@@ -18,12 +8,17 @@ A simple yet expandable web application to help users manage meals, calculate nu
 
 The **Meal Management & Nutrition Tracker** is a web-based full-stack application designed to help users organize their meals and monitor their nutritional intake.
 
-The application allows users to add, view, update, and delete meal information and create customized meal plans by selecting multiple meals.
-It automatically calculates the combined nutritional values of the selected meals.
+The application allows users to add, view, update, and delete meal information, and to create customized meal plans by selecting multiple meals. It automatically calculates the combined nutritional values of the selected meals.
 
 This project demonstrates practical implementation of **Python, Flask, MySQL, CRUD operations, SQL queries, server-side rendering, and full-stack web development**.
 
+---
+
 ## ✨ Features
+
+### 🔐 User Authentication
+- 📝 User registration
+- 🔑 User login
 
 ### 🍱 Meal Management
 - ➕ Add new meals
@@ -31,10 +26,10 @@ This project demonstrates practical implementation of **Python, Flask, MySQL, CR
 - ✏️ Edit existing meals
 - 🗑️ Delete meals
 - 📋 Display all available meals
+- 🔍 Filter meals by category or search by name
 
 ### 🥗 Nutrition Tracking
 Track important nutritional information for every meal:
-
 - 🔥 Calories
 - 💪 Protein
 - 🌾 Carbohydrates
@@ -51,12 +46,18 @@ Track important nutritional information for every meal:
 - Structured storage of meal information
 - SQL queries for retrieving and modifying data
 
+### 🎨 User Interface
+- Responsive and intuitive UI using HTML/CSS + Jinja templating
+- ⚡ Flash alerts for instant feedback (e.g., missing fields, successful updates)
+
+---
+
 ## 🛠️ Tech Stack
 
 ### 🎨 Frontend
 - HTML5
 - CSS3
-
+- Jinja2 Templating
 
 ### ⚙️ Backend
 - 🐍 Python
@@ -71,22 +72,48 @@ Track important nutritional information for every meal:
 - GitHub
 - VS Code
 
+---
+
+## 📁 Project Structure
+
+```
 Meal_planner_project_flask/
 │
-├── 📄 app.py
-├── 📄 requirements.txt
+├── app.py
+├── requirements.txt
 │
-└── 📁 templates/
-    ├── 📄 index.html
-    ├── 📄 add_meal.html
-    ├── 📄 edit_meal.html
-    ├── 📄 view_meal.html
-    └── 📄 meal_plan.html
+└── templates/
+    ├── index.html
+    ├── add_meal.html
+    ├── edit_meal.html
+    ├── view_meal.html
+    └── meal_plan.html
+```
 
-    ## 🌐 Live Demo
+---
+
+## ⚙️ Setup & Installation
+
+1. 📥 Clone the repository
+```bash
+   git clone https://github.com/Nandita1822/Meal_planner_project_flask.git
+   cd Meal_planner_project_flask
+```
+2. 📦 Install dependencies
+```bash
+   pip install -r requirements.txt
+```
+3. 🗄️ Create a MySQL database and update the database credentials in `app.py`
+4. ▶️ Run the application
+```bash
+   python app.py
+```
+5. 🌐 Open `http://127.0.0.1:5000` in your browser
+
+---
+
+## 🌐 Live Demo
 
 🚀 **Try the application online:**
 
 👉 [Meal Management & Nutrition Tracker](https://nandita2205.pythonanywhere.com/register)
-
-
